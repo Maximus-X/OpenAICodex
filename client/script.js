@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
 
     // Fetch data from server -> Bot's response
 
-    const response = await fetch('http://localhost:5125', {
+    const response = await fetch('https://openaicodex-e0qi.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
